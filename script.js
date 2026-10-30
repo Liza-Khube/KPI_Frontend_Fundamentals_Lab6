@@ -21,7 +21,7 @@ async function getUserData() {
 }
 
 function toggleLoading(isLoading) {
-  DOMElems.button.disable = isLoading;
+  DOMElems.button.disabled = isLoading;
   if (isLoading) {
     DOMElems.spinnerOverlay.classList.add('show');
     DOMElems.personInfo.classList.add('show');

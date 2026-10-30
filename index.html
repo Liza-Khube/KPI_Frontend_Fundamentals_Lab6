@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Хубеджева Є. П. ІМ-43 ЛР№6 Вар55(15)</title>
+  </head>
+  <body>
+    <div class="card">
+      <h1>Getting random user</h1>
+      <div id="button-container">
+        <button id="get-person">GET PERSON</button>
+      </div>
+      <hr />
+      <div id="person-info">
+        <img id="user-photo" alt="user_photo" />
+        <p><b>Cell: </b><span id="user-cell"></span></p>
+        <p><b>Country: </b><span id="user-country"></span></p>
+        <p><b>Postcode: </b><span id="user-postcode"></span></p>
+        <p><b>Coordinates: </b><span id="user-coordinates"></span></p>
+        <div id="loading-overlay">
+          <img id="loading" src="./assets/loading.gif" />
+        </div>
+      </div>
+      <div id="error">
+        <p>Error! Something went wrong</p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
